@@ -1,0 +1,13 @@
+# Do not edit manually
+# Text file normalization
+# Language detection rules
+*.min.js linguist-generated
+
+**/*.py linguist-detectable
+
+*.jpg binary
+*.yml linguist-detectable=false
+public/* linguist-vendored
+*.gif binary
+
+* text=auto
